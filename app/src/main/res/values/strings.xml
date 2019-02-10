@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">GPhotosFrame</string>
+    <string name="app_name">10 anos</string>
     <string name="appwidget_text">&lt;3 J&amp;R &lt;3</string>
     <string name="add_widget">Add widget</string>
+    <string name="poema">10 anos passaram\nE muitos mais virão\nOs nossos corações casaram\nE estão para sempre em
+        união!\n\n
+        Muitos mais anos virão\nPreenchendo toda a nossa existência\nSomos um só coração\nO Amor infinito é a nossa
+        essência!\n\n
+        Acordar tendo o teu sorriso para contemplar\nÉ o que faz o meu mundo girar\nFazes-me sempre sorrir\n Felecidade
+        a teu lado sempre vou sentir!
+    </string>
 </resources>

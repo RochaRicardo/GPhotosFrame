@@ -6,10 +6,16 @@
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
+            android:largeHeap="true"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:largeHeap="true"
             android:theme="@style/AppTheme">
+        <service
+                android:name=".PhotoUpdater"
+                android:enabled="true"
+                android:exported="true">
+        </service>
+
         <receiver android:name=".PhotoShow">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
@@ -20,7 +26,9 @@
                     android:resource="@xml/photo_show_info"/>
         </receiver>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+                  android:label="J&amp;R"
+        >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
